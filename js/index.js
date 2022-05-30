@@ -76,6 +76,9 @@ new Swiper('.swiper', {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  autoplay: true,
+  autoplay: {
+    disableOnInteraction: false,
+    delay: 2000
+  },
   loop: true
 })
