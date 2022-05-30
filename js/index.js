@@ -18,9 +18,6 @@ const infoTwoBtn = document.querySelector(".myInfoTwo__arrow")
 // 3
 const companyBtn = document.querySelector(".companyInfo__arrow")
 
-// 4
-const companyTwoBtn = document.querySelector(".companyInfoTwo__arrow")
-
 // 5
 const cardBtn = document.querySelector(".cardInfo__arrow")
 const cardMenu = document.querySelector(".cardInfo__Menu")
@@ -43,11 +40,6 @@ infoTwoBtn.addEventListener("click", function() {
 
 // 3
 companyBtn.addEventListener("click", function() {
-  alert("준비중입니다")
-})
-
-// 4
-companyTwoBtn.addEventListener("click", function() {
   alert("준비중입니다")
 })
 
